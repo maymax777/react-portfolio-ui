@@ -5,7 +5,7 @@ import { articles } from 'utils/constants.js';
 function Thumbnail() {
     return (
         <div>
-            {articles.map(article => <Article {...article}/>)}
+            {articles.map(article => <Article key={article.image} {...article}/>)}
         </div>
     )
 }

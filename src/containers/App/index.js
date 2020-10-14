@@ -7,7 +7,7 @@ import Thumbnail from 'components/layout/Thumbnail';
 
 function App() {
   return (
-    <div className="App" id="name">
+    <div id="main">
       <Header />
       <Thumbnail />
       <Footer />
